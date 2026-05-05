@@ -4,7 +4,7 @@ Flipkart PDP Scraper — FastAPI + Playwright
 ⚠  Educational / personal-use only.
 """
 from __future__ import annotations
-import asyncio, json, logging, os, random, re, sys
+import asyncio, json, logging, os, random, re, sys, threading
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("flipkart_pdp_scraper")
 
 scraper_state: dict[str, Any] = {
-    "running": False, "stop_event": asyncio.Event(), "logs": [],
+    "running": False, "stop_event": threading.Event(), "logs": [],
     "products": [], "total_items": 0, "scraped_count": 0,
     "failed_count": 0, "output_file": None, "task": None,
 }
