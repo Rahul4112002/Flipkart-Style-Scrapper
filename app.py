@@ -363,9 +363,18 @@ async def scrape_task(style_ids):
 # ---------------------------------------------------------------------------
 # Routes
 # ---------------------------------------------------------------------------
+@app.head("/")
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    try:
+        return templates.TemplateResponse(request=request, name="index.html")
+    except TypeError:
+        # Fallback for older Starlette versions
+        return templates.TemplateResponse("index.html", {"request": request})
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
 
 @app.post("/upload")
 async def upload_and_start(file: UploadFile = File(...)):
