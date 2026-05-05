@@ -1,0 +1,48 @@
+File: downloads\flipkart_styleid_20260328_220759.xlsx
+Columns: ['style_id', 'url', 'title', 'brand', 'current_price', 'original_price', 'discount', 'rating', 'rating_count', 'review_count', 'description', 'category', 'colors', 'sizes', 'material', 'seller', 'image_1', 'image_2', 'image_3', 'image_4', 'image_5', 'image_6', 'image_7', 'image_8', 'image_9', 'image_10', 'image_11', 'image_12', 'image_13', 'image_14', 'image_15', 'image_16', 'image_17', 'image_18', 'video_1']
+
+Image columns: 18
+Video columns: 1
+
+=== Product 1: WCWGZCRGUTHXHGPC ===
+URL: https://www.flipkart.com/product/p/itm?pid=WCWGZCRGUTHXHGPC
+  image_1: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/u/w/k/-original-imags9gcugebxjzz.jpeg
+  image_2: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/m/h/w/-original-imags9gcxpzhumhy.jpeg
+  image_3: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/f/4/k/-original-imags9gcyfuzdp4r.jpeg
+  image_4: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/a/y/n/womens-black-small-purse-1-2-lwpr00439-12-wallet-lino-perros-9-original-imahfefp3ca9zhta.jpeg
+  image_5: https://rukminim2.flixcart.com/image/832/832/xif0q/clutch/v/8/b/natalie-101ubf5004-wallet-urban-forest-original-imagpmazgnmquhcb.jpeg
+  image_6: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/g/y/b/-original-imahg9b3r89sznsm.jpeg
+  image_7: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/u/s/j/-original-imags9gb6y8gtdk8.jpeg
+  image_8: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/o/i/a/-original-imah8743g6bhehc7.jpeg
+  image_9: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/6/z/m/-original-imah873zpf6uguea.jpeg
+  image_10: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/c/x/r/-original-imahh6zgpfzsv8rf.jpeg
+  image_11: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/i/g/h/-original-imags9gfkxgntfbv.jpeg
+  image_12: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/0/y/v/-original-imags9g96ykgs9v6.jpeg
+  image_13: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/4/r/a/womens-mini-purse-money-pocket-with-zipper-closure-slim-and-easy-original-imah4kwjrjsgfuyp.jpeg
+  image_14: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/q/z/b/women-s-grey-mini-wallet-1-4-lwpr00436-5-wallet-lino-perros-8-original-imahfg2kr2hm4urp.jpeg
+  image_15: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/w/y/z/-original-imahfse52nwzyey8.jpeg
+  image_16: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/4/t/7/-original-imahfumzv7cz6uaq.jpeg
+  video_1: https://www.youtube.com/watch?v=Sp4QfxcFBz4
+
+=== Product 2: WCWG763ZNFBQKFPW ===
+URL: https://www.flipkart.com/product/p/itm?pid=WCWG763ZNFBQKFPW
+  image_1: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/c/x/r/-original-imahh6zgpfzsv8rf.jpeg
+  image_2: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/v/n/g/-original-imagtzdeetjhqfjh.jpeg
+  image_3: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/h/j/r/-original-imagtzde5zejg4zf.jpeg
+  image_4: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/a/y/n/womens-black-small-purse-1-2-lwpr00439-12-wallet-lino-perros-9-original-imahfefp3ca9zhta.jpeg
+  image_5: https://rukminim2.flixcart.com/image/832/832/xif0q/clutch/a/m/v/-original-imahfzzt3ttu9afm.jpeg
+  image_6: https://rukminim2.flixcart.com/image/832/832/xif0q/clutch/i/y/k/chirpy-foldover-clutch-wigj260072n2-handbag-lavie-original-imahk555yexbqzgb.jpeg
+  image_7: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/b/3/6/chic-1-7-wkgj483018n2-4-wallet-lavie-4-5-original-imahk55ujbnmssst.jpeg
+  image_8: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/8/3/d/chic-pro-small-bifold-wallet-1-7-wjgj308042n2-4-wallet-lavie-4-5-original-imahk5z6z36xxfgd.jpeg
+  image_9: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/h/r/w/chic-1-7-wkgj484050n2-4-wallet-lavie-4-5-original-imahk55zhkbwxmth.jpeg
+  image_10: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/8/e/a/chic-pro-small-bifold-wallet-1-7-wjgj308206n2-4-wallet-lavie-4-5-original-imahk55ugzszh3bt.jpeg
+  image_11: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/m/q/9/-original-imahh6zg6thhdqnd.jpeg
+  image_12: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/0/y/v/-original-imags9g96ykgs9v6.jpeg
+  image_13: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/w/y/z/-original-imahfse52nwzyey8.jpeg
+  image_14: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/q/z/b/women-s-grey-mini-wallet-1-4-lwpr00436-5-wallet-lino-perros-8-original-imahfg2kr2hm4urp.jpeg
+  image_15: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/4/r/a/womens-mini-purse-money-pocket-with-zipper-closure-slim-and-easy-original-imah4kwjrjsgfuyp.jpeg
+  image_16: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/x/r/b/brown-womens-wallet-1-12-ls9193b-11-wallet-leatherstile-10-5-original-imahghz3qyhyxhva.jpeg
+  image_17: https://rukminim2.flixcart.com/image/832/832/xif0q/wallet-card-wallet/i/g/h/-original-imags9gfkxgntfbv.jpeg
+  image_18: https://rukminim2.flixcart.com/image/832/832/xif0q/clutch/h/l/n/little-owl-vector-art-design-lw00000152-clutch-shopmantra-original-imahjfgfrfh2qf4q.jpeg
+  video_1: https://www.youtube.com/watch?v=HUi6NKWH_6k
+
