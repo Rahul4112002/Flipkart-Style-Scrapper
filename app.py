@@ -29,7 +29,9 @@ scraper_state: dict[str, Any] = {
     "products": [], "total_items": 0, "scraped_count": 0,
     "failed_count": 0, "output_file": None, "task": None,
 }
-MAX_TABS = 4
+# Auto-detect Render (low memory) vs local
+IS_RENDER = os.environ.get("RENDER") == "true" or os.path.exists("/opt/render")
+MAX_TABS = 2 if IS_RENDER else 4
 
 def _ts(): return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 def _log(msg):
@@ -230,10 +232,18 @@ async def _scrape_all(style_ids):
     _log(f"🌐 Launching browser ({MAX_TABS} tabs)…")
     try:
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True, args=[
+            chrome_args = [
                 "--disable-blink-features=AutomationControlled","--no-sandbox",
                 "--disable-dev-shm-usage","--disable-gpu",
-            ])
+            ]
+            if IS_RENDER:
+                chrome_args += [
+                    "--single-process","--disable-extensions",
+                    "--disable-background-networking","--disable-sync",
+                    "--disable-translate","--no-first-run",
+                    "--js-flags=--max-old-space-size=256",
+                ]
+            browser = await p.chromium.launch(headless=True, args=chrome_args)
             _log("✓ Browser ready")
 
             async def make_ctx():
@@ -267,7 +277,7 @@ async def _scrape_all(style_ids):
             ctx = await make_ctx()
             _log("🍪 Session cookies acquired")
             sem = asyncio.Semaphore(MAX_TABS)
-            BATCH = MAX_TABS * 3
+            BATCH = MAX_TABS * 2  # smaller batches on Render to save memory
             sids = [str(s).strip() for s in style_ids]
             total_batches = (len(sids)+BATCH-1)//BATCH
 
